@@ -1,0 +1,30 @@
+header {
+  background-color: black;
+  }
+
+
+.topContainer {
+  display: flex;
+  height:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Phone	@media (min-width: 576px) { ... }
+Tablet	@media (min-width: 768px) { ... }
+Desktop	@media (min-width: 992px) { ... } */
