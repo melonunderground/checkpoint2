@@ -1,12 +1,71 @@
-header {
-  background-color: black;
-  }
-
-
 .topContainer {
   display: flex;
-  height:50px;
+  background-color: black;
+  justify-content: space-around;
+  height:60px;
 }
+
+.name {
+  display: flex;
+  background-color:gray;
+  color: white;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: fantasy;
+  padding-top: 100px;
+
+}
+
+.role {
+  display: flex;
+  background-color:gray;
+  color: white;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: fantasy;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+.centralContainer {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.myWork {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resume {
+  justify-content: center;
+}
+.deets {
+  color: white;
+
+
+}
+
+/* .resume {
+  display: flex;
+
+
+}
+
+.website {
+  display: flex;
+
+} */
+
 
 
 
