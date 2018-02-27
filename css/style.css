@@ -1,0 +1,136 @@
+/* top social media links */
+.topContainer {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  height:60px;
+}
+
+/* name font style and sizing adjustments */
+.name {
+  display: flex;
+  background-color:gray;
+  color: white;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: fantasy;
+  padding-top: 100px;
+
+}
+
+/* title role font style and sizing adjustments */
+.role {
+  display: flex;
+  background-color:gray;
+  color: white;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: fantasy;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+/* about me link icons */
+.aboutMeContainer {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+
+}
+/* portfolio sample work link icons */
+.myWork {
+  display:flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items:center;
+  height: 600px;
+}
+
+/* icon labels font style and sizing adjustments */
+.label {
+  color: white;
+  font-family: fantasy;
+  font-size: 60px;
+
+}
+
+/* .icon-grid-item {
+  width: 100%;
+} */
+
+/* footer email contact link font style and sizing adjustments */
+footer {
+  padding-left: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+
+}
+
+/*
+.box1 {
+  grid-area: box1;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
+
+.box5 {
+  grid-area: box5;
+}
+
+.box6 {
+  grid-area: box6;
+}
+*/
+
+
+/* Small and up (Landscape Phones) */
+/* @media (min-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6";
+  }
+} */
+
+
+/* responsive design media queries */
+/* @media (min-width: 768px) {
+  .icon-grid-item {
+    width: calc(50% - 50px);
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-grid-item {
+    width: calc(33% - 10px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .icon-grid-item {
+    width: calc(25% - 10px);
+  }
+} */
